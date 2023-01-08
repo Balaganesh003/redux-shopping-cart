@@ -1,6 +1,5 @@
 import { uiActions } from './ui-slice'
 import { cartActions } from './cart-slice'
-import { useSelector } from 'react-redux'
 
 export const fetchData = () => {
     return async (dispatch) => {
